@@ -64,7 +64,7 @@ function App() {
   }
   const getMetas = async () => { //Obtiene los datos del indicador
     try{
-      const response = await fetch('http://localhost:5000/')
+      const response = await fetch('http://diegomonroytriana.pythonanywhere.com/')
       const data = await response.json()
       setIndicador2(data)
     }catch(error){
